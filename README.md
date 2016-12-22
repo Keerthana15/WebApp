@@ -1,5 +1,5 @@
 # WebApp
-1.Personal_details.html
+1.<b> Personal_details.html </b>
 The HTML file is the home page. It displays the person details fetched from the details.json file using JavaScript.
 
 2.Academic.html
