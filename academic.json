@@ -1,0 +1,8 @@
+academic=[{
+   "p1" : "Rig Seer" ,"des1": "A network application developed using client server programming in Java. The application allows the server machine to view the files on the client machine provided they are connected to the same network.",
+   "p2" : "Chitgig","des2" : "An application that simulates reservation of movie tickets by means of MySQL database. The application is developed in Java attempting to check availability of seats to book and cancel the tickets.",
+   "p3" : "City Surfing","des3" : "An android application to guide the users to find the routes making use of smart posters augmented by QR codes was developed from the research paper, ”A NFC-based pervasive solution for touristic surfing”.",
+   "p4" : "Info-Translation","des4" : "A Java project, developed for transferring data to the server. The project was built upon sliding window protocol along with the error detection mechanism.",
+   "p5" : "Big-Flix","des5" : "Developed in Windows platform using Visual C#, facilitates registration for users and allows them to buy books of different genres and keep track of number of copies available."
+
+}];

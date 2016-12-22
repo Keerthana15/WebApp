@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<style>
+      button {
+  color: #600;
+  border: 1px solid #900;
+  font-weight: bold;
+}
+</style>
+<body background = 'bk.jpg'>
+     <h1 align = 'center'>Intership Details</h1>
+	 <h2>Company Name  :  Agentdesks</h2>
+	 <h3>Description </h3> 
+	  <i id="internship_description"></i>
+		 
+	 
+         <script src="./internship_details.json"></script>
+         <script type="text/javascript">
+             function updateMe(){
+      		     var activity=internship;
+	             document.getElementById("internship_description").innerHTML = activity[0].Description.fontsize(3) ;
+				
+            }
+             updateMe()
+         </script>
+ <br><button onclick="goBack()">Back</button>
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
+
+	 
+</body>
+</html>
+	 

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<style>
+      button {
+  color: #600;
+  border: 1px solid #900;
+  font-weight: bold;
+}
+</style>
+<body background="bk.jpg">
+
+     <h1 align = 'center'>Academic Details</h1>
+	 <div >
+	     <i id="project_1"></i>
+		 <br><i id="description_1"></i>
+	 
+         <script src="./academic.json"></script>
+         <script type="text/javascript">
+             function updateMe(){
+      		     var activity=academic;
+	             document.getElementById("project_1").innerHTML = activity[0].p1.bold().fontsize(4) ;
+			     document.getElementById("description_1").innerHTML = activity[0].des1.fontsize(3);
+    
+            }
+             updateMe()
+         </script><hr>
+	 
+	 
+	     <i id="project_2"></i>
+		 <br><i id="description_2"></i>
+	 
+         <script src="./academic.json"></script>
+         <script type="text/javascript">
+             function updateMe(){
+      		     var activity=academic;
+	             document.getElementById("project_2").innerHTML = activity[0].p2.bold().fontsize(4) ;
+				 document.getElementById("description_2").innerHTML = activity[0].des2.fontsize(3);
+    
+            }
+             updateMe()
+         </script><hr>
+		 
+		 <i id="project_3"></i>
+		 <br><i id="description_3"></i>
+	 
+         <script src="./academic.json"></script>
+         <script type="text/javascript">
+             function updateMe(){
+      		     var activity=academic;
+	             document.getElementById("project_3").innerHTML = activity[0].p3.bold().fontsize(4) ;
+			     document.getElementById("description_3").innerHTML = activity[0].des3.fontsize(3);
+    
+            }
+             updateMe()
+         </script><hr>
+		 
+		 <i id="project_4"></i>
+		 <br><i id="description_4"></i>
+	 
+         <script src="./academic.json"></script>
+         <script type="text/javascript">
+             function updateMe(){
+      		     var activity=academic;
+	             document.getElementById("project_4").innerHTML = activity[0].p4.bold().fontsize(4) ;
+			     document.getElementById("description_4").innerHTML = activity[0].des4.fontsize(3);
+    
+            }
+             updateMe()
+         </script><hr>
+		 
+		 <i id="project_5"></i>
+		 <br><i id="description_5"></i>
+	 
+         <script src="./academic.json"></script>
+         <script type="text/javascript">
+             function updateMe(){
+      		     var activity=academic;
+	             document.getElementById("project_5").innerHTML = activity[0].p5.bold().fontsize(4) ;
+			     document.getElementById("description_5").innerHTML = activity[0].des5.fontsize(3);
+    
+            }
+             updateMe()
+         </script><hr>
+	 
+	</div>
+	
+     
+	 
+	 <button onclick="goBack()">Back</button>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+</body>
+</html>
+	 

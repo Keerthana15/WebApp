@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<body background = 'bk.jpg' >
+     <div>
+     <img style = "float: left; width: 80px;height: 70px;"src="psgtec.jpg" alt="logo" />
+     <h1 style = "position: relative;top: 18px;left: 10px;"align = 'center'>PSG College Of Technology</h1>
+	 </div>
+	 
+<script type="text/javascript">
+<!--
+
+var image1=new Image()
+image1.src="coll.jpg"
+var image2=new Image()
+image2.src="c1.jpg"
+
+//image1.src.style.background-size="cover"
+//image2.src.style.background-size="cover"
+//-->
+</script>
+<style>
+p.oblique 
+{
+font-style : oblique;
+}
+</style>
+</head>
+<style>
+a:hover
+{
+color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+</style>
+<body>
+
+<div style ="background-color:#E6E6FA">
+<center>
+<img src="coll.jpg" name="slide" />
+</center>
+</div>
+<script>
+<!--
+//variable that will increment through the images
+var step=1
+function slideit(){
+//if browser does not support the image object, exit.
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<2)
+step++
+else
+step=1
+//call function "slideit()" every 2.5 seconds
+setTimeout("slideit()",4500)
+}
+slideit()
+//-->
+</script>
+
+<br><div style = "background-color:#E6E6FA; height:480px;width:210px; font-size: 100%; float:left;" >
+<br> <a href ="./academic.html">Academic Details</a><br><hr>
+<br> <a href ="./extra_curriculum.html">Extra curricular Activities</a><br><hr>
+<br> <a href ="./attendance.html">Attendance Details</a><br><hr>
+<br> <a href ="./internship_details.html">Internship Details</a><br><hr>
+<br> <a href ="./fee_structure.html">  Fee Structure</a><br><hr>
+<br> <a href ="./exam_time_table.html">Exam Time Table</a><bR><hr>
+<br> <a href ="./hostel_details.html">Hostel Details</a><bR><hr>
+</div>
+
+<br><div  style = "position : absolute;left: 250px;">
+<h2  style = "position: relative;left: 350px;top:2px">Personal Details</h2>
+<br>Name   :
+     <i id="name"></i>
+	 
+     <script src="./details.json"></script>
+     <script type="text/javascript">
+         function updateMe(){
+         var activity=Personal_Details;
+	     document.getElementById("name").innerHTML = activity[0].Name;
+    
+  }
+  updateMe()
+</script>
+
+<br>Roll No        :
+     <i id="rollno"></i>
+     <script src="./details.json"></script>
+     <script type="text/javascript">
+         function updateMe(){
+         var activity=Personal_Details;
+	     document.getElementById("rollno").innerHTML = activity[0].Roll_No;
+    
+  }
+  updateMe()
+</script>
+<br>Semester       :
+     <i id="semester"></i>
+     <script src="./details.json"></script>
+     <script type="text/javascript">
+         function updateMe(){
+         var activity=Personal_Details;
+	     document.getElementById("semester").innerHTML = activity[0].Semester;
+    
+         }
+         updateMe()
+     </script>
+<br>Programme     :
+     <i id="programme"></i>
+     <script src="./details.json"></script>
+     <script type="text/javascript">
+         function updateMe(){
+         var activity=Personal_Details;
+	     document.getElementById("programme").innerHTML = activity[0].Programme;
+    
+        }
+         updateMe()
+     </script>
+
+</div>
+
+</body>
+</html>
+
