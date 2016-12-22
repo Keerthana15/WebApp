@@ -1,7 +1,7 @@
 # WebApp
 1.Personal_details.html 
 The HTML file is the home page. It displays the person details fetched from the details.json file using JavaScript.
-2.Academic.html
+2.Academic.html 
 The HTML file displays the academic project title and the description fetched from the academic.json file using JavaScript.
 3.Extra_curriculum.html 
 The HTML file displays the person’s extra curricular activities using list tag.
